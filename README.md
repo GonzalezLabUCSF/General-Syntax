@@ -15,7 +15,11 @@ BirdID--->mic--->folder(s) containing a days worth of recording(s).
 # 2 Select a foretemplate.
 Either using SAP or listening to bird recordings, find a wav file that contains a recording of your zebrafinch performing its motif multiple times in one bout. Preferably a 30 second recording, or less. Place that file into the mic folder, and rename it to "fortemplate". 
 
-# 1 Select bird
-Go into the script using matlab editor, and in the first section change the working directory address to where you have stored your bird files.
+# 3 Select bird
+Go into the script using matlab editor, and in the first section change the working directory address to where you have stored your bird files, specifically the mic folder of the bird.
 
-# 2 Run the script, and follow prompts in the command line.
+# 4 Run the script, and follow prompts in the command line.
+You will have to make several inputs, such as wanting to reanalyze all the days, resetting clustering information, selecting the motif from the fortemplate, selecting region of detected motifs to use for creating clusters based on similiarity to others, and classifying clusters.
+
+# 5 The script will generate four types of files.
+Cluster_Index, Syntax_Clustered, mic_template and ID_Motif_Syntax_Summary. Read the script for more info.
